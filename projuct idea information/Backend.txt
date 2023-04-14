@@ -1,0 +1,3 @@
+ProductUpload= product set-edit-delete
+Catagory = catagory set-edit-delete
+order Resseive = order Resseive-Delete

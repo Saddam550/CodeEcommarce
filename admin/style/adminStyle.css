@@ -1,0 +1,157 @@
+ul#adminNavBar {
+    background: #0072ff;
+    height: 100%;
+    position: absolute;
+    width: 25%;
+
+}
+
+
+.userName.nav-item {
+    background: #430087;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+
+.userName.nav-item h5.nav-item img {
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+ul#adminNavBar a.nav-link {
+    color: white;
+}
+
+ul#adminNavBar a.nav-link:hover {
+    background: #0048a1;
+}
+
+li.nav-item {
+    width: 100%;
+}
+
+form#customStyleForm {
+    width: 500px;
+    margin: auto;
+}
+
+div#productAddForm {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background: blue;
+    padding: 0% 16%;
+}
+
+#productAddForm .form-control {
+    width: 81%;
+}
+
+div#uploadSuccess {
+    padding: 0;
+    display: inline-block;
+    padding-top: 10px;
+    left: 72%;
+    transition: all 0.2s;
+    transform: scaleY(1);
+    transform-origin: top;
+    visibility: visible;
+}
+
+.active {
+    background: #0048a1;
+
+}
+
+.active a {
+    color: chartreuse;
+}
+
+
+
+.AddCataoryPopup {
+    position: absolute;
+    background: white;
+    padding: 20px;
+    left: 25%;
+    top: 10%;
+    border-radius: 6px;
+    width: 64%;
+    border: 1px solid tomato;
+
+}
+
+input#addCatagoryStyle {
+    background: #430087;
+    color: white;
+}
+
+input#addCatagoryStyle::placeholder {
+    color: white;
+}
+
+.closePopup.btn.btn-close.btn.btn-danger {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+/* div#poppuDisplay {
+    transform: scale(0);
+    transition: 0.2s;
+    visibility: hidden;
+} */
+
+
+/***** order *****/
+.orderDetils {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 40%;
+    left: 47%;
+}
+
+td.orderImg:hover img {
+
+
+    position: absolute;
+    left: 40%;
+    width: 200px !important;
+}
+
+
+#poppuDisplay {
+    transform: scale(1);
+    transition: 0.2s;
+    visibility: visible;
+}
+
+.table-responsive {
+    background: url(../../assets/logo/logo.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tableBg {
+    backdrop-filter: blur(2px);
+}
+
+.userOrderImg {
+    position: absolute;
+    width: 25%;
+    height: 37%;
+}
+
+img#user_order_pdf {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/***** End order *****/

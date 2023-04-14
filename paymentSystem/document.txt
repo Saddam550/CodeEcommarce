@@ -1,0 +1,4 @@
+Client  key = 6411c883c1477
+Api key = 6411c883c03bc
+Secret Key = 1311262420
+

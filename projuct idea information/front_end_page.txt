@@ -1,0 +1,12 @@
+home = header_Menu, silder_information , Catagory, Letest_Product, Product_cursor_Silder, SilderOF,Footer
+
+Catagory_Page = catagory product , catagory 
+
+product = Add , Edit, delete, FilterProduct-color,size 
+Chack_OutPage
+
+Cart_Page 
+
+Order_Page
+
+User_Profile_Page
